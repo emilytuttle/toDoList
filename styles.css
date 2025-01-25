@@ -1,0 +1,101 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.navigation, footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: rgb(52, 74, 120);
+    color: white;
+    height: 80px;
+    font-size: 25px;
+    
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    color: rgb(219, 217, 217);
+}
+
+.pageActive {
+    text-decoration:underline;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#whole-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+h1 {
+    margin: 30px;
+}
+
+.listItem {
+    font-size: 25px;
+    margin: 10px;  
+    list-style-type:none; ;
+}
+
+.listItem:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#submit {
+    padding: 10px;
+    background-color: rgb(52, 74, 120);
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(42, 59, 95);
+
+}
+
+.for-form {
+    margin: 10px;
+}
+
+#addItemField {
+    height: 50px;
+    font-size: 30px;
+}
